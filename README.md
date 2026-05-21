@@ -1,12 +1,12 @@
-# ProposalIQ
+# Proposal Generate Rag Based
 
 ## Project Overview
-ProposalIQ is an AI-powered proposal generation system that helps teams draft client-ready proposals using retrieval-augmented generation (RAG) over historical proposal content.
+proposal-generate is an AI-powered proposal generation system that helps teams draft client-ready proposals using retrieval-augmented generation (RAG) over historical proposal content.
 
 The platform combines a Next.js frontend with an Express/TypeScript backend, PostgreSQL vector search, local embedding generation, and Groq-hosted LLM inference. A user submits a new client requirement, the system retrieves the most relevant past proposals using vector similarity, and an LLM generates a grounded response based only on that retrieved context.
 
 ### Business Purpose
-ProposalIQ is designed to reduce proposal turnaround time, improve consistency across client responses, and help sales or delivery teams reuse institutional knowledge captured in previous proposals.
+proposal-generate is designed to reduce proposal turnaround time, improve consistency across client responses, and help sales or delivery teams reuse institutional knowledge captured in previous proposals.
 
 ### Core Functionality
 - Accepts a natural-language project requirement from the user
@@ -17,7 +17,7 @@ ProposalIQ is designed to reduce proposal turnaround time, improve consistency a
 - Returns both the generated answer and the supporting proposal sources
 
 ### Main Problem Solved
-ProposalIQ solves the problem of slow, inconsistent, and manually repetitive proposal drafting by turning historical proposal content into a searchable AI knowledge layer.
+proposal-generate solves the problem of slow, inconsistent, and manually repetitive proposal drafting by turning historical proposal content into a searchable AI knowledge layer.
 
 ## Features
 ### Main Capabilities
