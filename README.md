@@ -48,7 +48,6 @@ proposal-generate solves the problem of slow, inconsistent, and manually repetit
 - Backend: Node.js, Express 5, TypeScript
 - Database: PostgreSQL
 - AI/LLM: Groq SDK, `@xenova/transformers`, `Xenova/all-MiniLM-L6-v2`
-- Infrastructure: Local/dev server setup documented; no infrastructure-as-code found in repo
 - Storage: PostgreSQL for proposal content, metadata, and embeddings
 
 ## System Architecture
@@ -115,8 +114,6 @@ Create or update the environment files:
 Use the environment variable reference in the next section.
 
 ### 4. Prepare the Database
-This repository does not currently include a migration framework or SQL migration files. You will need to create the required extension and table manually before running the app.
-
 Recommended bootstrap SQL:
 ```sql
 CREATE EXTENSION IF NOT EXISTS vector;
